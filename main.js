@@ -122,7 +122,7 @@ function getMonthDiff(fromDate, toDate) {
     let monthDiff = toDate.getMonth() - fromDate.getMonth();
     if (monthDiff < 0) {
         const months = 12;
-        monthDiff = 12 + monthDiff;
+        monthDiff = months + monthDiff;
     }
 
     return monthDiff - decreaseValue;
