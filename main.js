@@ -28,8 +28,6 @@ const dates = [
     ['17.02.2024', '17.02.2025'],
 ];
 
-// ja dienas from ir lielakas tad - menesis un dienas izvada starpibu
-
 /**
  * @param {String} from
  * @param {String} to
